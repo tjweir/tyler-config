@@ -24,7 +24,7 @@ if exists("syntax_on")
    syntax reset
 endif
 
-let g:colors_name = "vibrantink"
+let g:colors_name = "vibrantinkty"
 
 if has("gui_running")
     highlight Normal guifg=White   guibg=Black
@@ -56,5 +56,14 @@ else
     highlight Statement ctermfg=202
     highlight String ctermfg=82 ctermbg=22
     highlight Search ctermbg=White 
+    highlight cssDefinition ctermfg=22
     highlight CursorLine ctermbg=17 ctermfg=none
+    highlight Pmenu ctermfg=82 ctermbg=22
+    highlight PmenuSel ctermfg=82 ctermbg=22
+    highlight PmenuSbar ctermfg=82 ctermbg=22
+    hi DiffAdd cterm=none ctermfg=bg ctermbg=Green 
+    hi DiffDelete cterm=none ctermfg=bg ctermbg=Red 
+    hi DiffChange cterm=none ctermfg=bg ctermbg=Yellow 
+    hi DiffText cterm=none ctermfg=bg ctermbg=Magenta
+
 endif
