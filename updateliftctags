@@ -1,0 +1,1 @@
+ctags -h ".scala" -R -f liftags /Users/tjweir/g/lift200810/liftweb/lift/
