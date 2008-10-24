@@ -28,9 +28,7 @@ if has("gui_running") || ! has("gui") || exists('g:CSApprox_loaded')
 
   if has('gui_running') && s:verbose > 1
     echomsg "Not loading CSApprox in gui mode."
-  elseif ! has('gui') && s:verbose > 0
-    echomsg "CSApprox needs gui support - not loading."
-  endif
+    endif
 
   unlet s:verbose
 
